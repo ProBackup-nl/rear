@@ -5,7 +5,7 @@
 # This file is part of Relax-and-Recover, licensed under the GNU General
 # Public License. Refer to the included COPYING for full text of license.
 
-# For Arch Linux storing the host name in /etc/hostname (lowercase) 
+# For Arch Linux storing the host name in /etc/hostname (lowercase)
 # will set the host name in the recovery environment without any scripting.
 
 if [[ -e /etc/hostname ]] ; then
